@@ -1,0 +1,21 @@
+.container {
+  margin: 12rem;
+  width: 42rem;
+}
+
+.menu-option {
+  background-color: grey;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-option span {
+  color: palevioletred;
+}
+
+.menu-option span:last-child {
+  color: aquamarine;
+}

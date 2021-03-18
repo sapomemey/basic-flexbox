@@ -1,0 +1,22 @@
+.container {
+  background-color: gray;
+  width: 28rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.literal {
+  color: black;
+  text-transform: uppercase;
+}
+
+.amount {
+  color: aquamarine;
+}
+
+.amount span {
+  color: aqua;
+}
