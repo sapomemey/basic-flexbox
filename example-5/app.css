@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  background-color: salmon;
+  height: 50rem;
+  justify-content: space-between;
+  border: 5px solid black;
+}
+
+.box {
+  background-color: deepskyblue;
+  flex-basis: 10rem;
+  border: 3px solid white;
+  height: 10rem;
+}
+
+.box:nth-last-child(2) {
+  background-color: tomato;
+  flex-grow: 1;
+}

@@ -1,0 +1,23 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: deepskyblue;
+  flex-basis: 4rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: salmon;
+  flex-basis: 4rem;
+}
+
+body {
+  margin: 0;
+}
